@@ -1,0 +1,19 @@
+.trustedBy {
+    background-color: #fafafa;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    //  align-items: center;
+
+    .container {
+        width: 760px;
+        //background-color: gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        color: rgb(187, 185, 185);
+        font-weight: 500;
+        font-size: 20px;
+    }
+}

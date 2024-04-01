@@ -1,0 +1,108 @@
+.home {
+    .features {
+        background-color: hsl(150, 75%, 97%);
+        display: flex;
+        justify-content: center;
+        padding: 100px, 0px;
+
+        &.dark {
+            background-color: #0d084d;
+            color: white;
+
+            h1 {
+                color: white !important;
+            }
+
+            p {
+                color: white !important;
+                margin-bottom: 20px !important;
+            }
+
+            .title {
+                color: white !important;
+                font-weight: 300 !important;
+                font-size: 14px !important;
+            }
+            img{
+                width: 550px;
+                border-radius: 5px;
+                height: 280px;
+                object-fit: cover;
+            }
+            button{
+                background-color:#1dbf73;
+                padding: 10px 20px;
+                color: white;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                margin-top: 20px;
+                border: none;
+                width: max-content;
+            }
+        }
+
+        .container {
+
+            width: 1150px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 50px;
+
+            .item {
+
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                &:first-child {
+                    flex: 2;
+                }
+
+                &:last-child {
+                    flex: 1;
+                }
+
+                h1 {
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: gray;
+                    line-height: 28px;
+                }
+
+                .title {
+                    display: flex;
+                    align-items: center;
+                    font-weight: 500;
+                    gap: 10px;
+                    font-size: 18px;
+                    color: gray;
+
+                    img {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+
+                iframe {
+                    padding: 60px 30px;
+                    width: 620px;
+                }
+            }
+
+
+
+
+
+
+        }
+    }
+    
+
+}

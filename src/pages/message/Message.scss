@@ -1,0 +1,91 @@
+.message {
+    display: flex;
+    justify-content: center;
+    
+    .container {
+        width: 900px;
+       
+        
+        margin: 20px;
+        // .breadcrumbs {
+        //     font-weight: 300;
+        //     font-size: 13px;
+        //     color: #555;
+        // }
+        .messages{
+            margin: 10px 0px;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            // height: 300px;
+            border: 1px solid lightgray;
+            border-radius: 10px;
+           
+            
+            overflow: scroll;
+
+
+            .item{
+                display: flex;
+                gap: 20px;
+                max-width: 500px;
+                font-size: 14px;
+
+                &.owner{
+                    flex-direction: row-reverse;
+                    align-self: flex-end;
+
+                    p{
+                        border-radius: 20px 0px 20px 20px;
+                        background-color: royalblue;
+                        color: white;
+                    }
+                }
+
+                img{
+                    height: 40px;
+                    width: 40px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                p{
+                    padding: 20px;
+                    background-color: rgb(233, 233, 233);
+                    border-radius: 0px 20px 20px 20px ;
+                    color: rgb(83, 82, 82);
+                    font-weight: 300;
+
+                }
+
+
+            }
+        }
+
+
+        .write {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            textarea{
+                width: 85%;
+                height: 40px;
+                padding: 10px;
+                border: 1px solid lightgray;
+                border-radius: 10px;
+            }
+            button{
+                padding: 20px;
+                background-color: #1dbf73;
+                color: white;
+                font-weight: 500;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                width: 100px;
+            }
+        }
+    }
+}
